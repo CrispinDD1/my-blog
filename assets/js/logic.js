@@ -1,2 +1,4 @@
 // Script, logic shared for both pages
-// Light and dark mode
+// ! Listen for light and dark mode
+// ! Function to put things into localStorage
+    // function to get things out of localStorage
