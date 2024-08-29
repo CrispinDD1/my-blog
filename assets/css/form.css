@@ -1,1 +1,36 @@
 /* Styles for front page */
+body {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#submit {
+    background-color: black;
+}
+
+header {
+  width: auto;
+  padding: 0;
+  border-bottom: 2px solid black;
+
+  p {
+    border-bottom: 2px solid black;
+    margin-bottom: 2px;
+  }
+}
+
+main {
+  display: flex;
+  flex: 1; 
+  justify-content: space-between;
+  align-items: flex-start;
+  width: auto;
+  box-sizing: border-box;
+}
+
+article, form {
+  width: 48%; 
+  box-sizing: border-box;
+  padding: 20px;
+}

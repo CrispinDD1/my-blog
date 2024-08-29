@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/styles.css"/>
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/styles.css"/>
-    <link rel="stylesheet" href="./assets/css/form.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/styles.css"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/styles.css"/>
+  <link rel="stylesheet" href="./assets/css/form.css" />
 </head>
 <body>
-    <header>
-        <h1>☀️</h1>
-    </header>
-    <main>
-        <p>FORM GOES HERE</p>
-        <button id="submit">Click Me</button>
-    </main>
-    <script src="./assets/js/logic.js"></script>
-    <script src="./assets/js/form.js"></script>
+  <header>
+    <p>☀️</p>
+  </header>
+
+  <main>
+    <article>
+      <!-- TODO add an image, display "my first blog" on top of the image (centered) -->
+    </article>
+    <form>
+      <h2>What's on your mind?</h2>
+      <p> 
+        <label for = "username">Username</label>
+        <input class = "userInput" id = "username" name = "username" type = "text"/>
+      </p>
+      <p>
+        <label for = "title">Title</label>
+        <input class = "titleInput" id = "title" name = "title" type = "text"/>
+      </p>
+      <p>
+        <label for = "content">Content</label>
+        <input class = "contentInput" id = "content" name = "content" type = "text"/>
+      </p>
+      <button id="submit">Click Me</button>
+    </form>
+  </main>
+
+  <script src="./assets/js/logic.js"></script>
+  <script src="./assets/js/form.js"></script>
 </body>
 </html>
