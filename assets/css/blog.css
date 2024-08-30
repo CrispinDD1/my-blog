@@ -1,1 +1,29 @@
 /* Styles for blog */
+#backButton {
+  background-color: black;
+  color: white;
+  max-height: 1.5rem;
+  position: relative;
+  top: 1.75rem;
+}
+
+#backButton.dark-theme {
+  background-color: white;
+  color: black;
+}
+
+.blog-post {
+  padding: 1rem;
+  border: 2px solid black;
+  margin-bottom: 1rem;
+
+  h2 {
+    width: auto;
+    border-bottom: 1px solid black;
+    position: relative;
+    top: -10px;
+    margin-top: 0;
+  }
+}
+  
+

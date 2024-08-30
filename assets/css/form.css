@@ -1,23 +1,14 @@
 /* Styles for front page */
-body {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
+
 
 #submit {
-    background-color: black;
+  background-color: black;
+  color: white;
 }
 
-header {
-  width: auto;
-  padding: 0;
-  border-bottom: 2px solid black;
-
-  p {
-    border-bottom: 2px solid black;
-    margin-bottom: 2px;
-  }
+#submit.dark-theme {
+  background-color: white;
+  color: black;
 }
 
 main {
